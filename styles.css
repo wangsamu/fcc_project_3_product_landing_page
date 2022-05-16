@@ -1,0 +1,38 @@
+/* Header */
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.logo {
+    width: 20vw;
+}
+
+.nav-items {
+    padding: 20px;
+}
+
+.nav-items a:link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+
+}
+
+/* Main */
+
+main {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 520px) {
+    html {    background-color: grey;
+    }
+}
